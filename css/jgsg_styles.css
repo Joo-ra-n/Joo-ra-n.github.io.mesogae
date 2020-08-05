@@ -18,7 +18,7 @@ text-align: center;
 }
 
 .img_div{
-padding: 10px;
+padding: 35px 0 30px 0;
 text-align: center;
 background-color: #008709;
 margin-bottom: 20px;
@@ -32,10 +32,11 @@ border-bottom: 0.5px gray solid;
 font-family: 'fromdamiM';
 font-size: 40px;
 font-weight: bolder;
+color: #DB3658;
 }
 
 .intro{
-height: 280px;
+height: 230px;
 text-align: center;
 overflow-y:scroll;
 margin-top: 20px;
