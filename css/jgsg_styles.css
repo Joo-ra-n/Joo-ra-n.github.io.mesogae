@@ -1,0 +1,62 @@
+.card{
+margin: auto;
+width: 300px;
+height: 500px;
+border: 1px solid #003303;
+border-radius: 30px;
+text-align: center;
+overflow: auto;
+}
+
+.img{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+border: 0.5px solid #003303;
+text-align: center;
+
+}
+
+.img_div{
+padding: 10px;
+text-align: center;
+background-color: #008709;
+margin-bottom: 20px;
+}
+
+.name{
+display: inline;
+width: 210px;
+text-align: center;
+border-bottom: 0.5px gray solid;
+font-family: 'fromdamiM';
+font-size: 40px;
+font-weight: bolder;
+}
+
+.intro{
+height: 280px;
+text-align: center;
+overflow-y:scroll;
+margin-top: 20px;
+font-family: 'MapoGoldenPier';
+}
+
+@font-face { font-family: 'fromdamiM'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_ten@1.0/fromdamiM.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'MapoGoldenPier'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoGoldenPierA.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+::-webkit-scrollbar {
+      width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #13BA7D;
+} /* the new scrollbar will have a flat appearance with the set background color */
+
+::-webkit-scrollbar-thumb {
+    background-color: #5FEDB9;
+} /* this will style the thumb, ignoring the track */
+
+::-webkit-scrollbar-button {
+    background-color: #005406;
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
